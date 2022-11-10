@@ -10,12 +10,18 @@
     <AssemblyName>mmlauncher</AssemblyName>
     <PlatformTarget>x86</PlatformTarget>
     <Platforms>x86</Platforms>
+    <AssemblyVersion>1.0.0.9</AssemblyVersion>
+    <FileVersion>1.0.0.9</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="publish\**" />
     <EmbeddedResource Remove="publish\**" />
     <None Remove="publish\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="7.0.0" />
   </ItemGroup>
 
 </Project>
