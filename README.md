@@ -1,5 +1,5 @@
 # WormsPinball
-An application to facilitate running Worms Pinball on modern hardware.
+An application to facilitate running Worms Pinball on modern systems.
 
 Requires .Net 6 or higher.
 
